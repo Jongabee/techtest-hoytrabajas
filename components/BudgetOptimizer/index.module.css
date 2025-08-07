@@ -1,0 +1,192 @@
+.budgetOptimizer {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.budgetOptimizer h2 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px;
+}
+
+.availableProducts {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.availableProducts h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.productsList {
+  display: grid;
+  gap: 10px;
+}
+
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #e5e7eb;
+}
+
+.productPrice {
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.budgetInputSection {
+  margin-bottom: 30px;
+}
+
+.budgetInputSection label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #333;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputGroup input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.inputGroup button {
+  padding: 12px 24px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.inputGroup button:hover:not(:disabled) {
+  background: #1d4ed8;
+}
+
+.inputGroup button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+.errorMessage {
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.resultSection {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.resultSection h3 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.noCombination {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  background: #f9fafb;
+  border-radius: 4px;
+}
+
+.selectedProducts {
+  margin-bottom: 20px;
+}
+
+.selectedProduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.selectedProduct:last-child {
+  margin-bottom: 0;
+}
+
+.resultSummary {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 20px;
+}
+
+.summaryItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.totalPrice {
+  font-weight: bold;
+  font-size: 18px;
+  color: #059669;
+}
+
+.remainingBudget {
+  font-weight: 500;
+  color: #666;
+}
+
+.utilization {
+  font-weight: 500;
+  color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .budgetOptimizer {
+    padding: 10px;
+  }
+  
+  .inputGroup {
+    flex-direction: column;
+  }
+  
+  .inputGroup button {
+    width: 100%;
+  }
+  
+  .productItem,
+  .selectedProduct,
+  .summaryItem {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+}
