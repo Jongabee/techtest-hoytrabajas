@@ -72,6 +72,9 @@ Carrito basado en memoria con las siguientes consideraciones:
 - Se permite agregar múltiples veces un mismo producto.
 
 ### Despliegue en Vercel 
+   ```bash
+   https://techtest-hoytrabajas.vercel.app/
+   ```
 
 ## 📝 Notas de Desarrollo
 
