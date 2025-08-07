@@ -35,8 +35,8 @@ const TechExplanation = () => {
             Es un framework fullstack moderno que me permite desarrollar backend y frontend en un solo entorno.
           </li>
           <li>
-            Dado que el desafío no requiere persistencia, concurrencia ni autenticación compleja, Next.js es más eficiente que un stack como Java.
-          </li>
+            Mi elección de Next.js responde a una evaluación proporcional del desafío: no por limitación, sino porque usar un stack más complejo como Ruby on Rails habría significado introducir capas innecesarias para una solución que puede resolverse de forma más ágil.
+            </li>
           <li>
             Puedo desplegar rápidamente en Vercel y mantener todo el código en un único repositorio, sin sobreingeniería.
           </li>
