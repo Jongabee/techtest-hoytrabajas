@@ -40,9 +40,6 @@ const TechExplanation = () => {
           <li>
             Puedo desplegar rápidamente en Vercel y mantener todo el código en un único repositorio, sin sobreingeniería.
           </li>
-          <li>
-            Elijo la herramienta adecuada al tamaño del problema: no por limitación, sino por profesionalismo.
-          </li>
         </ul>
       </div>
     </div>
