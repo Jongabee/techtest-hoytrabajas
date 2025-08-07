@@ -1,6 +1,6 @@
 # TechTest – Aplicación Full-Stack con Next.js
 
-Una aplicación full-stack desarrollada con Next.js y TypeScript que demuestra el desarrollo de una API REST, diseño de interfaz de usuario y resolución algorítmica de problemas.
+Una aplicación full-stack desarrollada con Next.js y TypeScript , diseño de interfaz de usuario y resolución algorítmica de problemas.
 
 ## 🚀 Funcionalidades
 
@@ -8,9 +8,7 @@ Una aplicación full-stack desarrollada con Next.js y TypeScript que demuestra e
 - **GET /api/products** – Devuelve una lista estática de productos.
 - **POST /api/cart** – Agrega productos al carrito con validación.
 - **GET /api/cart** – Retorna el contenido actual del carrito.
-- Almacenamiento en memoria para el carrito (sin persistencia).
-- Manejo de errores e input validation detallados.
-- Interfaces TypeScript.
+- Almacenamiento en memoria para el carrito.
 
 ### 🎨 Frontend
 - **Página de Productos** – Catálogo de productos con botón "Agregar al carrito".
@@ -79,11 +77,13 @@ Carrito basado en memoria con las siguientes consideraciones:
 
 ### Prueba de Endpoints
 ```bash
-curl http://localhost:3000/api/products
-
-curl -X POST http://localhost:3000/api/cart   -H "Content-Type: application/json"   -d '{"productId": 1}'
-
-curl http://localhost:3000/api/cart
+http://localhost:3000/api/products
+```
+```bash
+http://localhost:3000/api/cart   -H "Content-Type: application/json"   -d '{"productId": 1}'
+```
+```bash
+http://localhost:3000/api/cart
 ```
 
 ### Prueba del Frontend
