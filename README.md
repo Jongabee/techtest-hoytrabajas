@@ -86,5 +86,3 @@ Carrito basado en memoria con las siguientes consideraciones:
 
 - **Next.js 14** 
 - **TypeScript** 
-- **React 18** 
-- **Node.js**
