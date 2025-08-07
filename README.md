@@ -73,25 +73,6 @@ Carrito basado en memoria con las siguientes consideraciones:
 
 ### Despliegue en Vercel 
 
-## 🧪 Pruebas
-
-### Prueba de Endpoints
-```bash
-http://localhost:3000/api/products
-```
-```bash
-http://localhost:3000/api/cart   -H "Content-Type: application/json"   -d '{"productId": 1}'
-```
-```bash
-http://localhost:3000/api/cart
-```
-
-### Prueba del Frontend
-1. Ir a la página de productos y agregar elementos al carrito.
-2. Revisar la página del carrito para ver los productos agregados.
-3. Usar el optimizador con distintos presupuestos.
-4. Probar diseño responsive en distintos tamaños de pantalla.
-
 ## 📝 Notas de Desarrollo
 
 ### Calidad del Código
